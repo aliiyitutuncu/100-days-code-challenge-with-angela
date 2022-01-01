@@ -10,7 +10,8 @@ class DataManager:
 
     def __init__(self):
         self.destination_data = {}
-
+        print("is here")
+        
     def get_destination_data(self):
         response = requests.get(url=SHEETY_PRICES_ENDPOINT)
         data = response.json()
