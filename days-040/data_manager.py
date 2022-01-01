@@ -3,6 +3,7 @@ import os
 
 SHEETY_PRICES_ENDPOINT = os.environ.get("SHEETY_PRICES_ENDPOINT")
 SHEETY_USERS_ENDPOINT = os.environ.get("SHEETY_USERS_ENDPOINT")
+
 TOKEN = os.environ.get("TOKEN")
 
 class DataManager:
