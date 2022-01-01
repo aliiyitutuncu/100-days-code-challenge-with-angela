@@ -3,9 +3,9 @@ import os
 
 SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/cf15e951620d40c82cdd92658ac08e2d/flightDeals/prices"
 #os.environ.get("SHEETY_PRICES_ENDPOINT")
-SHEETY_USERS_ENDPOINT = os.environ.get("SHEETY_USERS_ENDPOINT")
+SHEETY_USERS_ENDPOINT = "https://api.sheety.co/cf15e951620d40c82cdd92658ac08e2d/flightDeals/users"
 # print(SHEETY_PRICES_ENDPOINT)
-TOKEN = os.environ.get("TOKEN")
+TOKEN = "SomeSecretToken"
 # print(TOKEN)
 headers = {
     "Authorization": f"Bearer {TOKEN}"
