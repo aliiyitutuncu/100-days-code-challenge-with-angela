@@ -7,8 +7,8 @@ TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
 TWILIO_VIRTUAL_NUMBER = os.environ.get("TWILIO_VIRTUAL_NUMBER")
 TWILIO_VERIFIED_NUMBER = os.environ.get("TWILIO_VERIFIED_NUMBER")
 MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com"
-MY_EMAIL = "YOUR EMAIL"
-MY_PASSWORD = "YOUR PASSWORD"
+MY_EMAIL = "mr.iyitutuncu@gmail.com"
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 class NotificationManager:
 
