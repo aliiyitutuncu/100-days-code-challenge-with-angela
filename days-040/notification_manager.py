@@ -11,7 +11,8 @@ TWILIO_VERIFIED_NUMBER = env.TWILIO_VERIFIED_NUMBER
 MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com"
 MY_EMAIL = "mr.iyitutuncu@gmail.com"
 MY_PASSWORD = env.MY_PASSWORD
-
+print(MY_PASSWORD)
+"""
 class NotificationManager:
 
     def __init__(self):
@@ -35,3 +36,4 @@ class NotificationManager:
                     to_addrs=email,
                     msg=f"Subject:New Low Price Flight!\n\n{message}\n{google_flight_link}".encode('utf-8')
                 )
+"""
